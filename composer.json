@@ -45,5 +45,11 @@
         "psr-4": {
             "RenanBr\\BibTexParser\\Test\\": "tests/"
         }
+    },
+    "scripts": {
+      "check": [
+        "@test"
+      ],
+      "test": "phpunit --colors=always --log-junit build/phpunit.xml"
     }
 }
